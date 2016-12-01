@@ -1,5 +1,7 @@
 *
 /*/
-!/originals/
+!/originals/**
 !generate-cards.py
 !README.md
+
+.DS_Store
