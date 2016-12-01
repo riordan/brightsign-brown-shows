@@ -1,0 +1,188 @@
+setup:
+    protocol: sftp
+    server: gurley.brown.columbia.edu
+    user: mediawall
+    pass: tktk # You should be an SSH key tho
+    port: 2222
+    fs-basepath: /volume1/mediawall/
+frames:
+  outside-hd:
+    content:
+      - sync-group: -1 # Unsynched; non-interactive show
+        content-template: images-30 # Select which show template to pull for
+                                    # for each machine; this might just change to
+                                    # show later on if its to ship w/ content
+    screens:
+      - id: "01" # String naming Brightsign ID
+        screen-size: "42" # String to describe screen size. This will become dimensions soon; nonessential but useful
+        resolution: "1920x1080" # DEFAULT: 1366	×	768 String to describe screen resolution
+        screen-rotation:  90 # DEFAULT 0 describes rotation of screen. 4 valid options [landscape, landscape-top, portrait-left, portrait-right] Directions are to describe positioning of the BOTTOM of the screen
+        description: >
+                       Outside tallscreen used for info display. Operates
+                       independent of the rest of the screens outside. Not synced.
+                       Likely shares content with Unit 50
+
+
+  outside-wall:
+    content:
+      - sync-group: 0 # Interactive show domain 0 or 1
+        content-template: images-30
+    screens: # We don't have the corresponding mappings of screens to dimensions
+             # for this outside wall yet. To be determined when updated
+
+      - id: 02
+
+      - id: 03
+
+      - id: 04
+
+      - id: 05
+
+      - id: 06
+
+      - id: 07
+
+      - id: 08
+
+      - id: 09
+
+      - id: 10
+
+      - id: 11
+
+      - id: 12
+
+      - id: 13
+
+      - id: 14
+
+      - id: 15
+
+      - id: 16
+
+      - id: 17
+
+      - id: 18
+
+      - id: 19
+
+      - id: 20
+
+      - id: 21
+
+      - id: 22
+
+      - id: 23
+
+      - id: 24
+
+      - id: 25
+
+      - id: 26
+
+      - id: 27
+
+      - id: 28
+
+      - id: 29 # Zone 0 Master; this does not change
+
+
+    inside-wall:
+      content:
+        - sync-group: 1
+          content-template: images-30
+
+      screens:
+        - id: 30
+          screen-size: 12
+          screen-rotation: 90
+
+        - id: 31
+          screen-size: 8
+          screen-rotation: 0
+
+        - id: 32
+          screen-size: 8
+          screen-rotation: 8
+
+        - id: 33
+          screen-size: 10
+          screen-rotation: 90
+
+        - id: 34
+          screen-size: 15
+          screen-rotation: 0
+
+        - id: 35
+          screen-size: 10
+          screen-rotation: 0
+
+        - id: 36
+          screen-size: 8
+          screen-rotation: 270
+
+        - id: 37
+          screen-size: 12
+          screen-rotation: 0
+
+        - id: 38
+          screen-size: 12
+          screen-rotation: 0
+
+        - id: 39
+          screen-size: 8
+          screen-rotation: 0
+
+        - id: 40
+          screen-size: 15
+          screen-rotation: 0
+
+        - id: 41
+          screen-size: 8
+          screen-rotation: 0
+
+        - id: 42
+          screen-size: 10
+          screen-rotation: 0
+
+        - id: 43
+          screen-size: 8
+          screen-rotation: 0
+
+        - id: 44
+          screen-size: 10
+          screen-rotation: 0
+
+        - id: 45
+          screen-size: 12
+          screen-rotation: 90
+
+        - id: 46
+          screen-size: 8
+          screen-rotation: 270
+
+        - id: 47
+          screen-size: 15
+          screen-rotation: 0
+
+        - id: 48
+          screen-size: 10
+          screen-rotation: 0
+
+        - id: 49 # Zone 1 Master
+          screen-size: 8
+          screen-rotation: 270
+
+  inside-hd:
+    content:
+      - sync-group: -1
+        content-template: images-30
+
+    screens:
+    - id: 50 # Device ID
+      screen-size: 42 # String to describe screen size. This will become dimensions soon
+      resolution: 1920x1080 # DEFAULT: 1366	×	768 String to describe screen resolution
+      screen-rotation: 90 # DEFAULT 0 describes rotation of screen. 4 valid options [landscape, landscape-top, portrait-left, portrait-right] Directions are to describe positioning of the BOTTOM of the screen
+      description: >
+                      Inside tallscreen. Usually used to display posters and immediately relevant data. Much of the time
+                      it operates independent of the rest of the screens.
