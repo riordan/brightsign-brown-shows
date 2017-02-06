@@ -17,10 +17,19 @@ Given a baseURL and a list of files or a target folder, generate an mrss file fo
 
 
 parser = argparse.ArgumentParser(description='Create a Brightsign MRSS feed from a directory of images')
+parser.add_argument("base_url", help="Default location of MRSS assets when hosted")
 parser.add_argument("media_folder", help="folder of media assets")
-#parser.add_argument("baseURL", "Base URL of media assets on web")
 args = parser.parse_args()
 
-for a, b, c in os.walk(args.media_folder):
-    print(a,c)
+base_directory = args.media_folder
+
+filelist = []
+for root,directories, filenames, in os.walk(base_directory):
+    for filename in filenames:
+        filepath = os.path.join(root, filename)
+        name = filepath[len(base_directory):]
+        filelist.append((filepath,name))
+
+for fl in filelist:
+    print(args.base_url + fl[1])
 #print(args.baseURL)
