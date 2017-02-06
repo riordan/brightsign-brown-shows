@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0"  xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+<title>Custom Video MRSS template for BrightSign Players</title>
+<link>http://brightsignnetwork.com/download/MRSS/Video_Template.xml</link>
+<description>Video Test</description>
+<ttl>30</ttl>
+<item>
+	<title>Video1</title>
+	<link>http://brightsignnetwork.com/download/MRSS/video1.mpg</link>
+	<description>video1</description>
+	<guid isPermaLink="false">0601</guid>
+	<media:content url="http://brightsignnetwork.com/download/MRSS/video1.mpg" fileSize="6313040" type="video/mp4" medium="video"/>
+</item>
+<item>
+	<title>Video2</title>
+	<link>http://brightsignnetwork.com/download/MRSS/video2.mpg</link>
+	<description>video2</description>
+	<guid isPermaLink="false">0610</guid>
+	<media:content url="http://brightsignnetwork.com/download/MRSS/video2.mpg" fileSize="41587668" type="video/mp4" medium="video"/>
+</item>
+<item>
+	<title>Video3</title>
+	<link>http://brightsignnetwork.com/download/MRSS/video3.mpg</link>
+	<description>video3</description>
+	<guid isPermaLink="false">0625</guid>
+	<media:content url="http://brightsignnetwork.com/download/MRSS/video3.mpg" fileSize="34189680" type="video/mp4" medium="video"/>
+</item>
+<item>
+	<title>Video4</title>
+	<link>http://brightsignnetwork.com/download/MRSS/video4.mpg</link>
+	<description>video4</description>
+	<guid isPermaLink="false">0630</guid>
+	<media:content url="http://brightsignnetwork.com/download/MRSS/video4.mpg" fileSize="19267744" type="video/mp4" medium="video"/>
+</item>
+</channel>
+</rss>
