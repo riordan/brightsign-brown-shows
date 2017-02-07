@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0"  xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+<title>Custom Image MRSS template for BrightSign Players</title>
+<link>http://brightsignnetwork.com/download/MRSS/Media_RSS_Image_Template.xml</link>
+<description>Image Test</description>
+<ttl>1</ttl>
+<item>
+	<title>image1</title>
+	<link>http://brightsignnetwork.com/download/MRSS/image1.jpg</link>
+	<category>image</category>
+	<description>image1</description>
+	<guid isPermaLink="false">101</guid>
+	<media:content url="http://brightsignnetwork.com/download/MRSS/image1.jpg" fileSize="1241656" type="image/jpeg" medium="image" duration="5"/>
+</item>
+<item>
+	<title>image2</title>
+	<link>http://brightsignnetwork.com/download/MRSS/image2.jpg</link>
+	<category>image</category>
+	<description>image2</description>
+	<guid isPermaLink="false">102</guid>
+	<media:content url="http://brightsignnetwork.com/download/MRSS/image2.jpg" fileSize="1048244" type="image/jpeg" medium="image" duration="5"/>
+</item>
+<item>
+	<title>image3</title>
+	<link>http://brightsignnetwork.com/download/MRSS/image3.jpg</link>
+	<category>image</category>
+	<description>image3</description>
+	<guid isPermaLink="false">103</guid>
+	<media:content url="http://brightsignnetwork.com/download/MRSS/image3.jpg" fileSize="805062" type="image/jpeg" medium="image" duration="5"/>
+</item>
+<item>
+	<title>image4</title>
+	<link>http://brightsignnetwork.com/download/MRSS/image4.jpg</link>
+	<category>image</category>
+	<description>image4</description>
+	<guid isPermaLink="false">104</guid>
+	<media:content url="http://brightsignnetwork.com/download/MRSS/image4.jpg" fileSize="1211709" type="image/jpeg" medium="image" duration="5"/>
+</item>
+</channel>
+</rss>

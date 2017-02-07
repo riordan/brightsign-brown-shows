@@ -2,6 +2,9 @@ import os
 import datetime
 import hashlib
 import argparse
+from imagemrss import MRImage
+from urllib.parse import urljoin
+import xml.etree.cElementTree as ET
 
 """
 mrss.py http://baseurl/maybe/the/media/folder/ targetfolder/
@@ -27,9 +30,8 @@ filelist = []
 for root,directories, filenames, in os.walk(base_directory):
     for filename in filenames:
         filepath = os.path.join(root, filename)
-        name = filepath[len(base_directory):]
-        filelist.append((filepath,name))
+        filelist.append(MRImage(filepath, args.base_url))
 
 for fl in filelist:
-    print(args.base_url + fl[1])
+    print(fl)
 #print(args.baseURL)
