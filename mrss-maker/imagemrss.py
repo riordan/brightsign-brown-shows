@@ -13,7 +13,7 @@ class MRImage:
     link = None
     fileHash = None
     fileSize = None
-    mime = None
+    mimetype = None
     name = None
     displaytime = None
 
