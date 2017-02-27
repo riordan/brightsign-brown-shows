@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BoseProducts version="4.4_2016-04-25_Matthew_Neutra">
+  <product>
+    <productName>Wolfcastle Family</productName>
+    <displayName>USB Audio+HID for Bluetooth products</displayName>
+    <productClass>Bluetooth_Headphones</productClass>
+    <tapProtocol>HID</tapProtocol>
+    <usbAudioInterfaceIndex>0</usbAudioInterfaceIndex>
+    <usbTapInterfaceIndex>2</usbTapInterfaceIndex>
+    <usbToSerial>
+      <registryKey>hotplug_dev:05a7:40fe</registryKey>
+      <registryValue>hid_mode_switch</registryValue>
+    </usbToSerial>
+    <usbToSerial>
+      <registryKey>hotplug_dev:05a7:40fa</registryKey>
+      <registryValue>hid_mode_switch</registryValue>
+    </usbToSerial>
+    <transport type="Serial-ASCII">
+      <baudRate>115200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <flowControl>none</flowControl>
+      <invertSignals>true</invertSignals>
+      <sendEOL>CR</sendEOL>
+      <receiveEOL>CR+LF</receiveEOL>
+    </transport>
+    <volumeTable>
+      <xval1>20</xval1>
+      <yval1>50</yval1>
+      <xval2>60</xval2>
+      <yval2>70</yval2>
+      <xval3>120</xval3>
+      <yval3>90</yval3>
+    </volumeTable>
+  </product>
+	<product>
+    <productName>Forman Family</productName>
+    <displayName>USB HID No Audio for Bluetooth products</displayName>
+    <productClass>Bluetooth_Headphones</productClass>
+    <tapProtocol>HID</tapProtocol>
+    <usbTapInterfaceIndex>0</usbTapInterfaceIndex>
+    <usbToSerial>
+      <registryKey>hotplug_dev:05a7:40fe</registryKey>
+      <registryValue>hid_mode_switch</registryValue>
+    </usbToSerial>
+    <usbToSerial>
+      <registryKey>hotplug_dev:05a7:40fa</registryKey>
+      <registryValue>hid_mode_switch</registryValue>
+    </usbToSerial>
+    <transport type="Serial-ASCII">
+      <baudRate>115200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <flowControl>none</flowControl>
+      <invertSignals>true</invertSignals>
+      <sendEOL>CR</sendEOL>
+      <receiveEOL>CR+LF</receiveEOL>
+    </transport>
+    <volumeTable>
+      <xval1>20</xval1>
+      <yval1>50</yval1>
+      <xval2>60</xval2>
+      <yval2>70</yval2>
+      <xval3>120</xval3>
+      <yval3>90</yval3>
+    </volumeTable>
+  </product>
+  <product>
+    <productName>SoundTouch Consoles</productName>
+    <displayName>SoundTouch A4V</displayName>
+    <productClass>HomeTheater_Consoles</productClass>
+    <usbToSerial>
+      <registryKey>hotplug:05a7:0921</registryKey>
+      <registryValue>usb_configuration=3</registryValue>
+    </usbToSerial>
+  <transport type="Serial-ASCII">
+    <baudRate>115200</baudRate>
+    <dataBits>8</dataBits>
+    <parity>N</parity>
+    <stopBits>1</stopBits>
+    <flowControl>none</flowControl>
+    <invertSignals>false</invertSignals>
+    <sendEOL>CR</sendEOL>
+    <receiveEOL>CR+LF</receiveEOL>
+  </transport>
+  <volumeTable>
+	<xval1>20</xval1>
+	<yval1>50</yval1>
+	<xval2>60</xval2>
+	<yval2>70</yval2>
+	<xval3>120</xval3>
+	<yval3>90</yval3>
+    </volumeTable>
+  </product>
+  <product>
+    <productName>ShelbyFamily</productName>
+    <displayName>SoundTouch Family</displayName>
+    <productClass>Powered_Speaker</productClass>
+    <usbToSerial>
+      <registryKey>hotplug:05a7:0921</registryKey>
+      <registryValue>usb_configuration=3</registryValue>
+    </usbToSerial>
+  <transport type="Serial-ASCII">
+    <baudRate>115200</baudRate>
+    <dataBits>8</dataBits>
+    <parity>N</parity>
+    <stopBits>1</stopBits>
+    <flowControl>none</flowControl>
+    <invertSignals>true</invertSignals>
+    <sendEOL>CR</sendEOL>
+    <receiveEOL>CR+LF</receiveEOL>
+  </transport>
+  <volumeTable>
+	<xval1>20</xval1>
+	<yval1>50</yval1>
+	<xval2>60</xval2>
+	<yval2>70</yval2>
+	<xval3>120</xval3>
+	<yval3>90</yval3>
+    </volumeTable>
+  </product>
+<product>
+    <productName>TriodeFamily</productName>
+    <displayName>Triode Family</displayName>
+    <productClass>HomeTheater_Consoles</productClass>
+    <transport type="Serial-ASCII">
+      <baudRate>19200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>2</stopBits>
+      <flowControl>none</flowControl>
+      <invertSignals>true</invertSignals>
+      <sendEOL>CR</sendEOL>
+      <receiveEOL>CR</receiveEOL>
+    </transport>
+    <volumeTable>
+	<xval1>20</xval1>
+	<yval1>50</yval1>
+	<xval2>60</xval2>
+	<yval2>70</yval2>
+	<xval3>120</xval3>
+	<yval3>90</yval3>
+    </volumeTable>
+  </product>
+<product>
+    <productName>SenteFamily</productName>
+    <displayName>SoundLink(CDC) | SL Mini | SL Color | SL Air | BT Headphones</displayName>
+    <productClass>Battery_Speaker</productClass>
+    <transport type="Serial-ASCII">
+      <baudRate>115200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <flowControl>none</flowControl>
+      <invertSignals>false</invertSignals>
+      <sendEOL>CR</sendEOL>
+      <receiveEOL>CR+LF</receiveEOL>
+    </transport>
+    <volumeTable>
+	<xval1>20</xval1>
+	<yval1>50</yval1>
+	<xval2>60</xval2>
+	<yval2>70</yval2>
+	<xval3>120</xval3>
+	<yval3>90</yval3>
+    </volumeTable>
+  </product>
+<product>
+    <productName>Cinnamon</productName>
+    <displayName>Solo 10 | Solo 15</displayName>
+    <productClass>Powered_Speaker</productClass>
+    <transport type="Serial-ASCII">
+      <baudRate>115200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <flowControl>none</flowControl>
+      <invertSignals>true</invertSignals>
+      <sendEOL>CR</sendEOL>
+      <receiveEOL>CR+LF</receiveEOL>
+    </transport>
+    <volumeTable>
+	<xval1>20</xval1>
+	<yval1>50</yval1>
+	<xval2>60</xval2>
+	<yval2>70</yval2>
+	<xval3>120</xval3>
+	<yval3>90</yval3>
+    </volumeTable>
+  </product>
+<product>
+    <productName>Pike</productName>
+    <displayName>Cinemate 15 | Cinemate 10</displayName>
+    <productClass>CLub_SoundBar</productClass>
+    <transport type="Serial-ASCII">
+      <baudRate>4800</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <flowControl>none</flowControl>
+      <invertSignals>true</invertSignals>
+      <sendEOL>CR</sendEOL>
+      <receiveEOL>CR</receiveEOL>
+    </transport>
+    <volumeTable>
+	<xval1>20</xval1>
+	<yval1>50</yval1>
+	<xval2>60</xval2>
+	<yval2>70</yval2>
+	<xval3>120</xval3>
+	<yval3>90</yval3>
+    </volumeTable>
+  </product>
+<product>
+    <productName>Hershey</productName>
+    <displayName>Cinemate 1SR</displayName>
+    <productClass>HomeTheater_2-1</productClass>
+    <transport type="Serial-ASCII">
+      <baudRate>57600</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>2</stopBits>
+      <flowControl>none</flowControl>
+      <invertSignals>false</invertSignals>
+      <sendEOL>CR</sendEOL>
+      <receiveEOL>CR</receiveEOL>
+    </transport>
+    <volumeTable>
+	<xval1>20</xval1>
+	<yval1>50</yval1>
+	<xval2>60</xval2>
+	<yval2>70</yval2>
+	<xval3>120</xval3>
+	<yval3>90</yval3>
+    </volumeTable>
+  </product>
+<product>
+    <productName>Pulsar</productName>
+    <displayName>Companion 2 Series III</displayName>
+    <productClass>Powered_Speaker</productClass>
+    <transport type="Serial-ASCII">
+      <baudRate>9600</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <flowControl>none</flowControl>
+      <invertSignals>true</invertSignals>
+      <sendEOL>CR</sendEOL>
+      <receiveEOL>CR</receiveEOL>
+    </transport>
+    <volumeTable>
+	<xval1>20</xval1>
+	<yval1>50</yval1>
+	<xval2>60</xval2>
+	<yval2>70</yval2>
+	<xval3>120</xval3>
+	<yval3>90</yval3>
+    </volumeTable>
+  </product>
+<product>
+    <productName>Onyx</productName>
+    <displayName>Companion 20</displayName>
+    <productClass>Powered_Speaker</productClass>
+    <transport type="Serial-ASCII">
+      <baudRate>115200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <flowControl>none</flowControl>
+      <invertSignals>false</invertSignals>
+      <sendEOL>CR</sendEOL>
+      <receiveEOL>CR</receiveEOL>
+    </transport>
+    <volumeTable>
+	<xval1>20</xval1>
+	<yval1>50</yval1>
+	<xval2>60</xval2>
+	<yval2>70</yval2>
+	<xval3>120</xval3>
+	<yval3>90</yval3>
+    </volumeTable>
+  </product>
+<product>
+    <productName>Carnelian</productName>
+    <displayName>Companion 5 Series II</displayName>
+    <productClass>Powered_Speaker</productClass>
+    <transport type="Serial-ASCII">
+      <baudRate>115200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <flowControl>none</flowControl>
+      <invertSignals>true</invertSignals>
+      <sendEOL>CR</sendEOL>
+      <receiveEOL>CR+LF</receiveEOL>
+    </transport>
+    <volumeTable>
+	<xval1>20</xval1>
+	<yval1>50</yval1>
+	<xval2>60</xval2>
+	<yval2>70</yval2>
+	<xval3>120</xval3>
+	<yval3>90</yval3>
+    </volumeTable>
+  </product>
+<product>
+    <productName>Defender-Marconi-Family</productName>
+    <displayName>LifeStyle (Defender-Marconi)</displayName>
+    <productClass>HomeTheater_5-1</productClass>
+    <transport type="Serial-Binary">
+      <baudRate>19200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <flowControl>none</flowControl>
+      <invertSignals>false</invertSignals>
+    </transport>
+    <volumeTable>
+	<xval1>20</xval1>
+	<yval1>50</yval1>
+	<xval2>60</xval2>
+	<yval2>70</yval2>
+	<xval3>120</xval3>
+	<yval3>90</yval3>
+    </volumeTable>
+  </product>
+<product>
+    <productName>Reframe</productName>
+    <displayName>SoundDock II | SoundDock III</displayName>
+    <productClass>Powered_Speaker</productClass>
+    <transport type="Serial-ASCII">
+      <baudRate>19200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <flowControl>none</flowControl>
+      <invertSignals>true</invertSignals>
+      <sendEOL>CR</sendEOL>
+      <receiveEOL>CR</receiveEOL>
+    </transport>
+    <volumeTable>
+	<xval1>10</xval1>
+	<yval1>15</yval1>
+	<xval2>50</xval2>
+	<yval2>35</yval2>
+	<xval3>120</xval3>
+	<yval3>50</yval3>
+    </volumeTable>
+  </product>
+<product>
+    <productName>Max</productName>
+    <displayName>SoundDock Portable</displayName>
+    <productClass>Powered_Speaker</productClass>
+    <transport type="Serial-ASCII">
+      <baudRate>19200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <flowControl>none</flowControl>
+      <invertSignals>true</invertSignals>
+      <sendEOL>CR</sendEOL>
+      <receiveEOL>CR</receiveEOL>
+    </transport>
+    <volumeTable>
+	<xval1>10</xval1>
+	<yval1>20</yval1>
+	<xval2>35</xval2>
+	<yval2>50</yval2>
+	<xval3>120</xval3>
+	<yval3>75</yval3>
+    </volumeTable>
+  </product>
+<product>
+    <productName>Hamster</productName>
+    <displayName>SoundDock XT</displayName>
+    <productClass>Docking System</productClass>
+    <transport type="Serial-ASCII">
+      <baudRate>115200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <flowControl>none</flowControl>
+      <invertSignals>true</invertSignals>
+      <sendEOL>CR</sendEOL>
+      <receiveEOL>CR</receiveEOL>
+    </transport>
+    <volumeTable>
+	<xval1>20</xval1>
+	<yval1>50</yval1>
+	<xval2>60</xval2>
+	<yval2>70</yval2>
+	<xval3>120</xval3>
+	<yval3>90</yval3>
+    </volumeTable>
+  </product>
+<product>
+    <productName>Via</productName>
+    <displayName>SoundLink Legacy (2400,8,n,1)</displayName>
+    <productClass>Powered_Speaker</productClass>
+    <transport type="Serial-ASCII">
+      <baudRate>2400</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <flowControl>none</flowControl>
+      <invertSignals>true</invertSignals>
+      <sendEOL>CR</sendEOL>
+      <receiveEOL>CR</receiveEOL>
+    </transport>
+    <volumeTable>
+	<xval1>20</xval1>
+	<yval1>50</yval1>
+	<xval2>60</xval2>
+	<yval2>70</yval2>
+	<xval3>120</xval3>
+	<yval3>90</yval3>
+    </volumeTable>
+  </product>
+<product>
+    <productName>LegacyProduct</productName>
+    <displayName>Legacy-Product-Manual-Entry-Required</displayName>
+    <productClass>LegacyProduct</productClass>
+    <transport type="Serial-ASCII">
+      <baudRate>115200</baudRate>
+      <dataBits>8</dataBits>
+      <parity>N</parity>
+      <stopBits>1</stopBits>
+      <flowControl>none</flowControl>
+      <invertSignals>false</invertSignals>
+      <sendEOL>CR</sendEOL>
+      <receiveEOL>CR</receiveEOL>
+    </transport>
+    <volumeTable>
+	<xval1>20</xval1>
+	<yval1>50</yval1>
+	<xval2>60</xval2>
+	<yval2>70</yval2>
+	<xval3>120</xval3>
+	<yval3>90</yval3>
+    </volumeTable>
+  </product>  
+</BoseProducts>

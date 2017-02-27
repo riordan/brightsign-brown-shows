@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>RSS FEED TITLE GOES HERE!</title>
+    <title>RSS FEED TITLE GOES HERE!</title>
+    <description>Test of a MRSS Generator</description>
+    <ttl>1</ttl>
+    <item>
+      <title>.DS_Store</title>
+      <link>http://fakeurl.com/show/.DS_Store</link>
+      <category>image</category>
+      <description>.DS_Store</description>
+      <guid isPermaLink="false">a910d793ff6485d1af0adda531e2c3d3953d09c4</guid>
+      <media:content duration="30" fileSize="6148" medium="image" type="None" url="http://fakeurl.com/show/.DS_Store"/>
+    </item>
+    <item>
+      <title>_D3R5961.jpg</title>
+      <link>http://fakeurl.com/show/_D3R5961.jpg</link>
+      <category>image</category>
+      <description>_D3R5961.jpg</description>
+      <guid isPermaLink="false">cd7543f3658af00dc3c865c6bea56ce48b7f08f7</guid>
+      <media:content duration="30" fileSize="498069" medium="image" type="image/jpeg" url="http://fakeurl.com/show/_D3R5961.jpg"/>
+    </item>
+    <item>
+      <title>_D3R5963.jpg</title>
+      <link>http://fakeurl.com/show/_D3R5963.jpg</link>
+      <category>image</category>
+      <description>_D3R5963.jpg</description>
+      <guid isPermaLink="false">a654931de86b0a53cc36306672435e29f7840b06</guid>
+      <media:content duration="30" fileSize="515431" medium="image" type="image/jpeg" url="http://fakeurl.com/show/_D3R5963.jpg"/>
+    </item>
+    <item>
+      <title>_D3R5966.jpg</title>
+      <link>http://fakeurl.com/show/_D3R5966.jpg</link>
+      <category>image</category>
+      <description>_D3R5966.jpg</description>
+      <guid isPermaLink="false">d3cd8a8a75413cf6135b54861f17a00ab972356d</guid>
+      <media:content duration="30" fileSize="572236" medium="image" type="image/jpeg" url="http://fakeurl.com/show/_D3R5966.jpg"/>
+    </item>
+    <item>
+      <title>_D3R5967.jpg</title>
+      <link>http://fakeurl.com/show/_D3R5967.jpg</link>
+      <category>image</category>
+      <description>_D3R5967.jpg</description>
+      <guid isPermaLink="false">0c1722771742d970f58e74072066bceff50f9ec5</guid>
+      <media:content duration="30" fileSize="654368" medium="image" type="image/jpeg" url="http://fakeurl.com/show/_D3R5967.jpg"/>
+    </item>
+    <item>
+      <title>_D3R5973.jpg</title>
+      <link>http://fakeurl.com/show/_D3R5973.jpg</link>
+      <category>image</category>
+      <description>_D3R5973.jpg</description>
+      <guid isPermaLink="false">7ebb5e372b0effd8fbdcf0e6326cf2e0a240dde3</guid>
+      <media:content duration="30" fileSize="742181" medium="image" type="image/jpeg" url="http://fakeurl.com/show/_D3R5973.jpg"/>
+    </item>
+    <item>
+      <title>_D3R6106.jpg</title>
+      <link>http://fakeurl.com/show/_D3R6106.jpg</link>
+      <category>image</category>
+      <description>_D3R6106.jpg</description>
+      <guid isPermaLink="false">241453a35a68d9216096ebcf2789597416341900</guid>
+      <media:content duration="30" fileSize="717609" medium="image" type="image/jpeg" url="http://fakeurl.com/show/_D3R6106.jpg"/>
+    </item>
+    <item>
+      <title>_D3R6131.jpg</title>
+      <link>http://fakeurl.com/show/_D3R6131.jpg</link>
+      <category>image</category>
+      <description>_D3R6131.jpg</description>
+      <guid isPermaLink="false">bb0b9cf40113ab0688715bdcc326d4254c49cb11</guid>
+      <media:content duration="30" fileSize="853676" medium="image" type="image/jpeg" url="http://fakeurl.com/show/_D3R6131.jpg"/>
+    </item>
+    <item>
+      <title>_D8R1475.jpg</title>
+      <link>http://fakeurl.com/show/subimg/_D8R1475.jpg</link>
+      <category>image</category>
+      <description>_D8R1475.jpg</description>
+      <guid isPermaLink="false">0d7ec002e412d96e79d78372a6197fa70c54803d</guid>
+      <media:content duration="30" fileSize="818334" medium="image" type="image/jpeg" url="http://fakeurl.com/show/subimg/_D8R1475.jpg"/>
+    </item>
+  </channel>
+</rss>
+

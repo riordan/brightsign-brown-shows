@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>RSS FEED TITLE GOES HERE!</title>
+    <title>RSS FEED TITLE GOES HERE!</title>
+    <description>Test of a MRSS Generator</description>
+    <ttl>1</ttl>
+    <item>
+      <title>.DS_Store</title>
+      <link>http://gurley-private.brown.columbia.edu/50/content/media/.DS_Store</link>
+      <category>image</category>
+      <description>.DS_Store</description>
+      <guid isPermaLink="false">df2fbeb1400acda0909a32c1cf6bf492f1121e07</guid>
+      <media:content duration="30" fileSize="6148" medium="image" type="None" url="http://gurley-private.brown.columbia.edu/50/content/media/.DS_Store"/>
+    </item>
+    <item>
+      <title>Logo_blue.jpg</title>
+      <link>http://gurley-private.brown.columbia.edu/50/content/media/Logo_blue.jpg</link>
+      <category>image</category>
+      <description>Logo_blue.jpg</description>
+      <guid isPermaLink="false">c133c6cee6485e4e2a5b53c9331b13e0170c470a</guid>
+      <media:content duration="30" fileSize="303870" medium="image" type="image/jpeg" url="http://gurley-private.brown.columbia.edu/50/content/media/Logo_blue.jpg"/>
+    </item>
+    <item>
+      <title>mixer-screens.jpg</title>
+      <link>http://gurley-private.brown.columbia.edu/50/content/media/mixer-screens.jpg</link>
+      <category>image</category>
+      <description>mixer-screens.jpg</description>
+      <guid isPermaLink="false">59158b5cd775ef08f73d5cbd1045069d53e0766b</guid>
+      <media:content duration="30" fileSize="549332" medium="image" type="image/jpeg" url="http://gurley-private.brown.columbia.edu/50/content/media/mixer-screens.jpg"/>
+    </item>
+  </channel>
+</rss>
+
