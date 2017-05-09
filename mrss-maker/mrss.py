@@ -17,7 +17,7 @@ def prettify(elem):
 
 
 """
-mrss.py http://baseurl/maybe/the/media/folder/ targetfolder/
+mrss.py http://baseurl/maybe/the/media/folder/ http://baseurl/maybe/the/feed.xml targetfolder/
 
 Given a baseURL and a list of files or a target folder, generate an mrss file for that folder of images.
 """
@@ -30,7 +30,8 @@ Given a baseURL and a list of files or a target folder, generate an mrss file fo
 
 
 parser = argparse.ArgumentParser(description='Create a Brightsign MRSS feed from a directory of images')
-parser.add_argument("base_url", help="Default location of MRSS assets when hosted")
+parser.add_argument("base_url", help="Default location of MRSS assets when hosted (eg http://...01/content/media/)")
+parser.add_argument("feed_url", help="Default location of MRSS feed assets when hosted (eg http://...01/content/feed.xml)")
 parser.add_argument("media_folder", help="folder of media assets")
 args = parser.parse_args()
 
@@ -39,8 +40,11 @@ base_directory = args.media_folder
 filelist = []
 for root,directories, filenames, in os.walk(base_directory):
     for filename in filenames:
-        filepath = os.path.join(root, filename)
-        filelist.append(MRImage(filepath, args.base_url))
+        if ".DS_Store" in filename:
+            pass
+        else:
+            filepath = os.path.join(root, filename)
+            filelist.append(MRImage(filepath, args.base_url))
 
 
 ###############
@@ -53,12 +57,12 @@ channel = ET.Element('channel')
 rss.append(channel)
 
 channelTitle = ET.Element('title')
-channelTitle.text="RSS FEED TITLE GOES HERE!"
+channelTitle.text="Brightsign MRSS Feed"
 channel.append(channelTitle)
 
 channelLink = ET.Element('link')
-channelLink.text = "http://woohoo.com/xml"
-channel.append(channelTitle)
+channelLink.text = args.feed_url
+channel.append(channelLink)
 
 channelDescription = ET.Element('description')
 channelDescription.text = "Test of a MRSS Generator"
